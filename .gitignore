@@ -1,0 +1,52 @@
+# Root
+/.env
+/.env.local
+*.log
+temp/
+tmp/
+.DS_Store
+
+# --- Backend (Django) ---
+/backend/rvenv/
+/backend/__pycache__/
+/backend/**/*.pyc
+/backend/**/*.pyo
+/backend/**/*.pyd
+/backend/**/__pycache__/
+/backend/rvenv/
+/backend/__pycache__/
+/backend/*.pyc
+/backend/*.pyo
+/backend/*.pyd
+/backend/*.sqlite3
+/backend/db.sqlite3-journal
+/backend/.pytest_cache/
+/backend/.coverage
+/backend/htmlcov/
+/backend/media/
+/backend/staticfiles/
+/backend/.env
+/backend/.venv/
+
+# Keep Django migrations and source code (do NOT ignore migrations)
+# If you have a file-based secrets or local settings, ensure it's listed above.
+
+# --- Frontend (React/Vite) ---
+/frontend/node_modules/
+/frontend/dist/
+/frontend/build/
+/frontend/.vite/
+/frontend/.eslintcache
+/frontend/.env
+/frontend/.env.local
+/frontend/package-lock.json
+/frontend/yarn.lock
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+/*.swp
+
+# Misc
+env.local
+GitIgnoreFix.docx
