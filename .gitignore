@@ -50,3 +50,4 @@ tmp/
 # Misc
 env.local
 GitIgnoreFix.docx
+*.docx
